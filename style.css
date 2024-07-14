@@ -1,0 +1,162 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 4px 1px 10px  #252F42;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-image: url('images/world-map.png');
+    background-size:cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+header > img {
+    width: 94px;
+    height: 84px;
+}
+
+h1 {
+    color: #32CD32;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #252F42;
+    border-radius: 8px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 5px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #035A9D;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#userInput {
+    width: calc(350px - 20px);
+    height: 90px;
+    background-color: #EFF0F4;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    overflow: wrap;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fu {height: 5px;}
+
+.radio-section {
+    display: flex;
+    border: none;
+    gap: 20px;
+
+}
+
+.radio-section label {
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    text-align: center;
+    padding: 10px 40px;
+    background-color: #035A9D;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.translated-text {
+    display: none;
+}
+
+.return-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#returned-text {
+    width: calc(350px - 20px);
+    height: 0px;
+    background-color: #EFF0F4;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    overflow: wrap;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    overflow-y: hidden;
+    transition: height 0.8s ease-out, opacity 0.4s ease-out;
+    opacity: 0;
+}
+
+#respond-header {
+    color: rgb(77, 239, 77);
+}
+
+.small-header {
+    font-size: 0.88rem;
+    color: #035A9D;
+}

@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.52.5",
+    "vite": "^5.3.3"
+  },
+  "name": "openaitest3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

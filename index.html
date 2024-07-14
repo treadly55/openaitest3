@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+		</style>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <main>
+			<header>
+				<img id="headerImage" src="images/parrot.png">
+				<div class="header-text">
+					<h1>PollyGlot</h1>
+					<p>Perfect Translation Every Time</p>
+				</div>
+			</header>
+			<section>
+			<form>
+				<h2>Select Language</h2>
+					<fieldset>
+						<div class="radio-section">
+							<label for="frenchLang">
+								<input type="radio" id="frenchLang" name="language" value="French"> French
+							</label>
+							<label for="spainLang">
+								<input type="radio" id="spainLang" name="language" value="Spanish"> Spanish
+							</label>
+							<label for="klingonLang">
+								<input type="radio" id="klingonLang" name="language" value="Klingon"> Klingon
+							</label>
+						</div>	
+					</fieldset>
+			</form>
+		
+				<h2>Input text to translate</h2>	
+				<textarea id="userInput" placeholder="How are you?"> </textarea>
+			
+
+			<div class="return-textbox">
+				<h2 id="respond-header"><span class="small-header">TRANSLATOR STATUS</span><br />Ready to respond</h2>
+				<textarea id="returned-text"></textarea>
+			</div>
+
+			<button type="submit">Translate</button>
+
+		</section>
+
+			<div class="fu"></div>
+		</main>
+        
+		<script type="module" src="/main.js"></script>
+    </body>
+</html>
